@@ -1,0 +1,89 @@
+body {
+  padding:0;
+  margin:0;
+background-image:url( "./img/outrun-sunset-retrowave-synthwave-uhdpaper.com-hd-8.2525.jpg");
+background-size:fit;
+overflow:hidden;
+}
+.box{
+  width:300px;
+  height:auto;
+  background:rgba(0,0,0,0.4);
+  top:50%;
+  left:50%;
+   position:absolute;
+  box-sizing:border-box;
+border-radius:10px;
+  transform:translate(-50%,-50%);
+  padding:60px 20px;
+  
+}
+.profile{
+  
+  position:absolute;
+  border-radius:50%;
+  top:calc(-50px/2);
+  left:calc(50% - 50px);
+  overflow:hidden;
+}
+h2
+{
+   padding:0 0 10px;
+   text-align:center;
+   font-weight:bold;
+   font-size:20px;
+   color:#ffff33;
+}
+.box .lable{
+   margin:0;
+   padding:0;
+   color:#00FFFF;
+   font-weight:bold;
+   font-size:18px;
+}
+.box input{
+   width:100%;
+   margin-bottom:10px;
+}
+  
+.box input[type="usuario"],
+.box input[type="password"]
+{
+  border:none;
+  border-bottom:3px solid #ffe6ff;
+  background:transparent;
+  height:40px;
+  outline:none;
+  color:#fff;
+  font-size:16px;
+}
+::placeholder
+{
+  color: rgba(255,255,255,.5);
+}
+.box button
+{
+  text-align: center;
+  padding: 10px 15px;
+  height:50px;
+  background-color:#66ff33;
+  border-radius:20px;
+  font-weight:bold;
+  color:#fff;
+  cursor:pointer;
+  font-size:15px;
+  
+}
+.box button:hover
+{
+  
+  background-color: #ffff00;
+  color:#000;
+}
+.box .forpas
+{
+  font-weight:bold;
+  color:#fff;
+  text-decoration:none;
+  
+}
